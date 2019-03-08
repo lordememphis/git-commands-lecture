@@ -20,7 +20,7 @@ okay, this [link](https://google.com) goes to Google.com
 
 ### To do
 
-[x] Learn Git commands (a few)
-[x] Learn Markdown
-[] Code Twitter Cover Page
-[] Code Landing Page
+- [x] Learn Git commands (a few)
+- [x] Learn Markdown
+- [ ] Code Twitter Cover Page
+- [ ] Code Landing Page
