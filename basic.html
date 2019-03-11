@@ -1,32 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
    <title>Basic</title>
    <style>
       body {
          margin: 0;
+         font-family: monospace;
+         background-color: yellow;
       }
 
       header {
          width: 100%;
-         height: 128px;
-         background-color: teal;
+         padding: 2rem;
+         background-color: blue;
+         color: yellow;
+      }
+
+      header nav a {
+         color: yellow;
+         text-decoration: none;
+         font-size: 150%;
+         position: relative;
+         top: -40px;
+      }
+
+      header nav img {
+         display: inline-block;
+         width: 100px;
+         height: 100px;
+         border: 3px solid yellow;
+         border-radius: 100px;
+         margin-right: 1rem;
+      }
+
+      section {
+         text-align: center;
+         color: blue;
+      }
+
+      section div {
+         width: 90%;
+         margin-left: auto;
+         margin-right: auto;
+         margin-top: 3rem;
+      }
+
+      section div img {
+         display: inline-block;
+         width: 300px;
+         height: 300px;
+         border-radius: 5px;
+      }
+
+      footer {
+         background-color: blue;
+         padding: 2rem;
+         position: absolute;
+         bottom: 0;
+         width: 100%;
+      }
+
+      footer p {
+         color: yellow;
+         text-align: center;
       }
    </style>
 </head>
+
 <body>
    <header>
       <nav>
-         <a href="">Home</a>
-         <a href="">Skill Arsenal</a>
-         <a href="">About Me</a>
-         <a href="">Contact</a>
+         <img src="img/avatar.jpg" alt="user avatar">
+         <a href="">Home | </a>
+         <a href="">Skill Arsenal | </a>
+         <a href="">About Me | </a>
+         <a href="">Contact | </a>
          <a href="">Portfolio</a>
       </nav>
-   </header> 
-   <section></section>  
+   </header>
+   <section>
+      <h1>This is a basic homepage written in HTML5 and CSS3</h1>
+      <h2>Below are some two pictures, centered within the page</h2>
+      <div>
+         <img src="img/img_01.jpg" alt="image 1">
+         <img src="img/img_02.jpg" alt="image 2">
+      </div>
+   </section>
    <footer>
       <p>ICS 222 - Lecture 1 | March 2019</p>
    </footer>
 </body>
+
 </html>
